@@ -1,12 +1,13 @@
 # Getting and Cleaning Data - Course Project - Week 4
 Version 1.0  
 GitHub User Name: nayehi
+October 2018
 
-# Overview
+## Overview
 This project reads data files into R, restructures the data, calculates mean values, and writes a tidy data output file. 
 It is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0). 
 
-# Data Source
+## Data Source
 According to documentation provided with the Human Activity Recognition Using Smartphones Dataset, it is based on experiments carried out with a group of 30 volunteers in the age bracket of 19-48 years.
 
 In these experiments, each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, laying)
@@ -22,7 +23,7 @@ The Training data consists of 7352 observations across the same 561 variables.
 [Read about the variables](https://github.com/nayehi/TidyData-Project/blob/master/Features.md).
 
 
-# This Project
+## This Project
 The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
 
 This project resulted in a single script, [run_analysis.R](https://github.com/nayehi/TidyData-Project/blob/master/run_analysis.R), which does the following:
@@ -33,7 +34,7 @@ This project resulted in a single script, [run_analysis.R](https://github.com/na
 5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and 
 each subject.
 
-# Process
+## Process
 1) Prior to running this script, **download** the [data file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), placing it in the the working directory. 
 2) **Unzip** the file into its current location (the working directory).
 3) **Launch the script.** It will read files into R based on their locations relative to the working directory.
@@ -42,7 +43,7 @@ each subject.
 "TidyData.txt" includes one header line. Contained in this file are 180 observations across 81 variables.  
 [View Descriptions of Variables](https://github.com/nayehi/TidyData-Project/blob/master/Variables)
 
-# Package Content
+## Package Content
 This package includes the following files:
 - 'README.md'
 - 'run_analysis.R'
@@ -51,7 +52,7 @@ This package is distributed AS-IS and no responsibility implied or explicit can 
 
 nayehi. November 2018. 
 
-# Dataset Credits
+## Dataset Credits
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
 
 Smartlab - Non Linear Complex Systems Laboratory  
@@ -64,7 +65,7 @@ activityrecognition@smartlab.ws
 
 www.smartlab.ws  
 
-# License:
+## License:
 
 Any commercial use is prohibited.
 
