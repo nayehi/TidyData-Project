@@ -76,3 +76,4 @@ Smartphones using a Multiclass Hardware-Friendly Support Vector Machine.
 International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
+
