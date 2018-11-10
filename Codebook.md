@@ -56,49 +56,29 @@ The full headers for these variables appear below.
 | 7      | mean_time_body_accel-standarddev-y_axis     |   mean calculated on the standard deviation of the time body measure from the 
       accelerometer for the y axis|
 | 8      | mean_time_body_accel-standarddev-z_axis     |   mean calculated on the standard deviation of the time body measure from the 
-      accelerometer for the z axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
-| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+      accelerometer for the x axis|
+| 9      | mean_time_gravity_accel-mean-x_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the x axis|
+| 10      | mean_time_gravity_accel-mean-y_axis     |   mean calculated on the mean time gravity measure from the accelerometer for the y axis|
+| 11      | mean_time_gravity_accel-mean-z_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the z axis  |
+| 12      | mean_time_gravity_accel-standarddev-x_axis     |   mean calculated on the standard deviation of the time gravity measure from the accelerometer for axis x|
+| 13      | mean_time_gravity_accel-standarddev-y_axis     |   mean calculated on the standard deviation of the time gravity measure from the accelerometer for axis y|
+| 14      | mean_time_gravity_accel-standarddev-z_axis     |   mean calculated on the standard deviation of the time gravity measure from the accelerometer for axis z|
+| 15      | mean_time_body_accel_jerk-mean-x_axis     |   mean calculated on the mean time body jerk measure from the accelerometer for the x axis|
+| 16      | mean_time_body_accel_jerk-mean-y_axis     |   mean calculated on the mean time body jerk measure from the accelerometer for the axis y|
+| 17      | mean_time_body_accel_jerk-mean-z_axis     |   mean calculated on the mean time body jerk measure from the accelerometer for the axis z|
+| 18      | mean_time_body_accel_jerk-standarddev-x_axis    |   mean calculated on the standard deviation of the time body jerk measure from the accelerometer for the x axis|
+| 19      | mean_time_body_accel_jerk-standarddev-y_axis    |   mean calculated on the standard deviation of the time body jerk measure from the accelerometer for the y axis|
+| 20      | mean_time_body_accel_jerk-standarddev-z_axis    |   mean calculated on the standard deviation of the time body jerk measure from the accelerometer for the z axis|
+| 21      |mean_time_body_gyro-mean-x_axis     |   mean calculated on the mean time body measure from the gyroscope for the x axis|
+| 22      |mean_time_body_gyro-mean-y_axis     |   mean calculated on the mean time body measure from the gyroscope for the y axis|
+| 23      |mean_time_body_gyro-mean-z_axis     |   mean calculated on the mean time body measure from the gyroscope for the z axis|
+| 24      |mean_time_body_gyro-standarddev-x_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the x axis|
+| 25      |mean_time_body_gyro-standarddev-y_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the y axis|
+| 26      |mean_time_body_gyro-standarddev-z_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the z axis|
 
 
- [3] "mean_time_body_accel-mean-x_axis": mean calculated on the mean time body measure from the accelerometer for the x axis               
- [4] "mean_time_body_accel-mean-y_axis":mean calculated on the mean time body measure from the accelerometer for the y axis                  
- [5] "mean_time_body_accel-mean-z_axis": mean calculated on the mean time body measure from the accelerometer for the z axis                  
- [6] "mean_time_body_accel-standarddev-x_axis": mean calculated on the standard deviation of the time body measure from the 
-      accelerometer for the x axis        
- [7] "mean_time_body_accel-standarddev-y_axis": mean calculated on the standard deviation of the time body measure from the 
-      accelerometer for the y axis               
- [8] "mean_time_body_accel-standarddev-z_axis": mean calculated on the standard deviation of the time body measure from the 
-      accelerometer for the z axis                
- [9] "mean_time_gravity_accel-mean-x_axis"            
-[10] "mean_time_gravity_accel-mean-y_axis"            
-[11] "mean_time_gravity_accel-mean-z_axis"            
-[12] "mean_time_gravity_accel-standarddev-x_axis"     
-[13] "mean_time_gravity_accel-standarddev-y_axis"     
-[14] "mean_time_gravity_accel-standarddev-z_axis"     
-[15] "mean_time_body_accel_jerk-mean-x_axis"          
-[16] "mean_time_body_accel_jerk-mean-y_axis"          
-[17] "mean_time_body_accel_jerk-mean-z_axis"          
-[18] "mean_time_body_accel_jerk-standarddev-x_axis"   
-[19] "mean_time_body_accel_jerk-standarddev-y_axis"   
-[20] "mean_time_body_accel_jerk-standarddev-z_axis"   
-[21] "mean_time_body_gyro-mean-x_axis"                
-[22] "mean_time_body_gyro-mean-y_axis"                
-[23] "mean_time_body_gyro-mean-z_axis"                
-[24] "mean_time_body_gyro-standarddev-x_axis"         
-[25] "mean_time_body_gyro-standarddev-y_axis"         
-[26] "mean_time_body_gyro-standarddev-z_axis"         
+
+           
 [27] "mean_time_body_gyro_jerk-mean-x_axis"           
 [28] "mean_time_body_gyro_jerk-mean-y_axis"           
 [29] "mean_time_body_gyro_jerk-mean-z_axis"           
