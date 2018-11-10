@@ -49,7 +49,7 @@ The full headers for these variables appear below.
 -------------------------------------------------------------------------------
 | Column #        | Variable Name                              | Description  |
 | -------------: |:--------------------------------------:| :-----|
--------------------------------------------------------------------------------
+---------- -------------------------------------------- -----------------------
 
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
 
