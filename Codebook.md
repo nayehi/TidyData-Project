@@ -65,6 +65,8 @@ The full headers for these variables appear below.
 
 | 9      | mean_time_gravity_accel-mean-x_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the x axis|
 
+-------------------------------------------------------------------------------
+
 | 10      | mean_time_gravity_accel-mean-y_axis     |   mean calculated on the mean time gravity measure from the accelerometer for the y axis|
 | 11      | mean_time_gravity_accel-mean-z_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the z axis  |
 | 12      | mean_time_gravity_accel-standarddev-x_axis     |   mean calculated on the standard deviation of the time gravity measure from the accelerometer for axis x|
