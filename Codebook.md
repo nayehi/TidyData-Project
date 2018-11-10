@@ -46,8 +46,8 @@ The remaining elements provide additional layers of specificity. These are:
 
 The full headers for these variables appear below.
 
- | Column #        | Variable Name           | Description  |
-| -------------: |:-----------------------------:| :-----|
+ | Column #        | Variable Name                         | Description  |
+| -------------: |:---------------------------------------:| :-----|
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
 | 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
 | 5      | mean_time_body_accel-mean-z_axis     |   mean calculated on the mean time body measure from the accelerometer for the z axis|
