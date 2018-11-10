@@ -3,9 +3,8 @@ Version 1.0
 GitHub User Name: nayehi
 
 #Data Source
-This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0), 
-downloadable from the following URL: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+This project is based on the [Human Activity Recognition Using Smartphones Dataset (Version 1.0)]
+(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 #Dataset Credits
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
