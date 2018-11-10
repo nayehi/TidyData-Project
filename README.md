@@ -26,7 +26,7 @@ The Training data consists of 7352 observations across the same 561 variables.
 
 The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
 
-This project resulted in a single script, run_analysis.R, which does the following:
+This project resulted in a single script, [run_analysis.R](https://github.com/nayehi/TidyData-Project/blob/master/run_analysis.R), which does the following:
 1) Merges the training and the test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement.
 3) Applies descriptive activity names to name the activities in the data set.
