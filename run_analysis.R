@@ -1,4 +1,4 @@
-##Prior to running this script, download the data file,
+##Download the script to your working directory. Prior to running this script, download the data file,
 ##placing it in the the working directory.
 ##The file URL is:
 ##https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
