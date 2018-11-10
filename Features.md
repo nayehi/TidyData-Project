@@ -1,3 +1,5 @@
+# TidyData-Project Input Variables
+
 The below content was extracted from documentation of the Human Activity Recognition Using Smartphones Dataset.
 
 # Credits
