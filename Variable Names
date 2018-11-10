@@ -1,4 +1,17 @@
 #Variable Names in TidyData Output File
+
+The first variable contains the activity being performed by the subject. 
+The second variable contains the subject_id.
+The remaining variables, identified by labels that begin with "mean_", contain calculated means that apply to the 
+activity-subject_id pairs. These means were calculated from the mean and standard deviation values in the original Test and Training
+data.
+
+Abbreviations that appear in labels:
+accel: accelerometer
+freq: frequency
+gyro: gyroscope
+standarddev: standarddeviation
+
                         
  [1] "activity": the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)                                      
  [2] "subject_id": the unique identifier for the subject performing the activity (Values: 1-30)                                         
