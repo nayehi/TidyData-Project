@@ -20,7 +20,7 @@ consists of 180 observations across 81 variables.
 
 For convenience, the column numbers for the variables have been provided below. 
                   
- | Column#        | Variable Name           | Description  |
+ | Column #        | Variable Name           | Description  |
 | -------------: |:-------------:| :-----|
 | 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
 | 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
@@ -46,7 +46,7 @@ The remaining elements provide additional layers of specificity. These are:
 
 The full headers for these variables appear below.
 
- | Column#        | Variable Name           | Description  |
+ | Column #        | Variable Name           | Description  |
 | -------------: |:-------------:| :-----|
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
 | 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
@@ -72,62 +72,62 @@ The full headers for these variables appear below.
 | 24      |mean_time_body_gyro-standarddev-x_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the x axis|
 | 25      |mean_time_body_gyro-standarddev-y_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the y axis|
 | 26      |mean_time_body_gyro-standarddev-z_axis     |   mean calculated on the standard deviation of the time body measure from the gyroscope for the z axis|
+| 27      |mean_time_body_gyro_jerk-mean-x_axis     |   mean calculated on the mean time body jerk measure from the gyroscope for the x axis|
+| 28      |mean_time_body_gyro_jerk-mean-y_axis     |   mean calculated on the mean time body jerk measure from the gyroscope for the y axis|
+| 29      |mean_time_body_gyro_jerk-mean-z_axis     |   mean calculated on the mean time body jerk measure from the gyroscope for the z axis|
+| 30      |mean_time_body_gyro_jerk-standarddev-x_axis    |   mean calculated on the standard deviation of the time body jerk from the gyroscope for the x axis|
+| 31      |mean_time_body_gyro_jerk-standarddev-y_axis    |   mean calculated on the standard deviation of the time body jerk from the gyroscope for the y axis|
+| 32      |mean_time_body_gyro_jerk-standarddev-z_axis    |   mean calculated on the standard deviation of the time body jerk from the gyroscope for the z axis|
+| 33      |mean_time_body_accel_magnitude-mean    |   mean calculated on the mean time body magnitude from the gyroscope|
+| 34      |mean_time_body_accel_magnitude-standarddev    |   mean calculated on the standard deviation of the time body magnitude from the gyroscope|
+| 35      |mean_time_gravity_accel_magnitude-mean    |   mean calculated on the mean time gravity magnitude from the accelerometer|
+| 36      |mean_time_gravity_accel_magnitude-standarddev    |   mean calculated on the standard deviation of the time gravity magnitude from the accelerometer|
+| 37      |mean_time_body_accel_jerk_magnitude-mean    |   mean calculated on the mean time body jerk magnitude from the accelerometer|
+| 38      |mean_time_body_accel_jerk_magnitude-standarddev    |   mean calculated on the standard deviation of the time body jerk magnitude from the accelerometer|
+| 39     |mean_time_body_gyro_magnitude-mean   |   mean calculated on the mean time body magnitude from the gyroscope|
+| 40     |mean_time_body_gyro_magnitude-standarddev   |   mean calculated on the standard deviation of the time body magnitude from the gyroscope|
+| 41    |mean_time_body_gyro_jerk_magnitude-mean   |   mean calculated on the mean time body jerk magnitude from the gyroscope|
+| 42     |mean_time_body_gyro_jerk_magnitude-standarddev   |   mean calculated on the standard deviation of the time body jerk magnitude from the gyroscope|
+| 43     |mean_freq_body_accel-mean-x_axis   |   mean calculated on the mean frequency body from the accelerometer for the x axis|
+| 44    |mean_freq_body_accel-mean-y_axis   |   mean calculated on the mean frequency body from the accelerometer for the y axis|
+| 45    |mean_freq_body_accel-mean-z_axis   |   mean calculated on the mean frequency body from the accelerometer for the z axis|
+| 46   |mean_freq_body_accel-standarddev-x_axis   |   mean calculated on the standard deviation of the frequency body from the accelerometer for the x axis|
+| 47   |mean_freq_body_accel-standarddev-y_axis   |   mean calculated on the standard deviation of the frequency body from the accelerometer for the y axis|
+| 48   |mean_freq_body_accel-standarddev-z_axis   |   mean calculated on the standard deviation of the frequency body from the accelerometer for the z axis|
+| 49     |mean_freq_body_accel-mean_freq-x_axis   |   mean calculated on the mean frequency body from the accelerometer for the x axis|
+| 50     |mean_freq_body_accel-mean_freq-y_axis   |   mean calculated on the mean frequency body from the accelerometer for the y axis|
+| 51     |mean_freq_body_accel-mean_freq-z_axis   |   mean calculated on the mean frequency body from the accelerometer for the z axis|
+| 52     |mean_freq_body_accel_jerk-mean-x_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the x axis|
+| 53     |mean_freq_body_accel_jerk-mean-y_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the y axis|
+| 54     |mean_freq_body_accel_jerk-mean-z_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the z axis|
+| 55     |mean_freq_body_accel_jerk-standarddev-x_axis  |   mean calculated on the standard deviation of the frequency body jerk from the accelerometer for the x axis|
+| 56     |mean_freq_body_accel_jerk-standarddev-y_axis  |   mean calculated on the standard deviation of the frequency body jerk from the accelerometer for the y axis|
+| 57     |mean_freq_body_accel_jerk-standarddev-z_axis  |   mean calculated on the standard deviation of the frequency body jerk from the accelerometer for the z axis|
+| 58    |mean_freq_body_accel_jerk-mean_freq-x_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the x axis|
+| 59    |mean_freq_body_accel_jerk-mean_freq-y_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the y axis|
+| 60    |mean_freq_body_accel_jerk-mean_freq-z_axis   |   mean calculated on the mean frequency body jerk from the accelerometer for the z axis|
+| 61     |mean_freq_body_gyro-mean-x_axis   |   mean calculated on the mean frequency body from the gyroscope for the x axis|
+| 62     |mean_freq_body_gyro-mean-y_axis   |   mean calculated on the mean frequency body from the gyroscope for the y axis|
+| 63     |mean_freq_body_gyro-mean-z_axis   |   mean calculated on the mean frequency body from the gyroscope for the z axis|
+| 64     |mean_freq_body_gyro-standarddev-x_axis   |   mean calculated on the standard deviation of the frequency body from the gyroscope for the x axis|
+| 65     |mean_freq_body_gyro-standarddev-y_axis   |   mean calculated on the standard deviation of the frequency body from the gyroscope for the y axis|
+| 66     |mean_freq_body_gyro-standarddev-z_axis   |   mean calculated on the standard deviation of the frequency body from the gyroscope for the z axis|
+| 67     |mean_freq_body_gyro-mean_freq-x_axis   |   mean calculated on the mean frequency body from the gyroscope for the x axis|
+| 68     |mean_freq_body_gyro-mean_freq-y_axis   |   mean calculated on the mean frequency body from the gyroscope for the y axis|
+| 69     |mean_freq_body_gyro-mean_freq-z_axis   |   mean calculated on the mean frequency body from the gyroscope for the z axis|
+| 70     |mean_freq_body_accel_magnitude-mean   |   mean calculated on the mean frequency body magnitude from the accelerometer|
+| 71     |mean_freq_body_accel_magnitude-standarddev   |   mean calculated on the standard deviation of the frequency body magnitude from the accelerometer|
+| 72     |mean_freq_body_accel_magnitude-mean_freq   |   mean calculated on the mean frequency for the body magnitude from the accelerometer|
+| 73     |mean_freq_body_accel_jerk_magnitude-mean  |   mean calculated on the mean frequency body jerk from the accelerometer|
+| 74     |mean_freq_body_accel_jerk_magnitude-standarddev  |   mean calculated on the standard deviation of the frequency body jerk magnitude from the accelerometer|
+| 75     |mean_freq_body_accel_jerk_magnitude-mean_freq  |   mean calculated on the mean frequency body jerk magnitude from the accelerometer|
+| 76     |mean_freq_body_gyro_magnitude-mean  |   mean calculated on the mean frequency body magnitude from the gyroscope|
+| 77     |mean_freq_body_gyro_magnitude-standarddev  |   mean calculated on the standard deviation of the frequency body magnitude from the gyroscope|
+| 78     |mean_freq_body_gyro_magnitude-mean_freq |   mean calculated on the mean frequency of the frequency body magnitude from the gyroscope|
+| 79     |mean_freq_body_gyro_jerk_magnitude-mean |   mean calculated on the mean frequency body jerk magnitude from the gyroscope|
+| 80     |mean_freq_body_gyro_jerk_magnitude-standarddev  |   mean calculated on the standard deviation of the frequency body jerk magnitude from the gyroscope|
+| 81    |mean_freq_body_gyro_jerk_magnitude-mean_freq  |   mean calculated on the mean frequency of the frequency body jerk magnitude from the gyroscope|
 
 
-
-           
-[27] "mean_time_body_gyro_jerk-mean-x_axis"           
-[28] "mean_time_body_gyro_jerk-mean-y_axis"           
-[29] "mean_time_body_gyro_jerk-mean-z_axis"           
-[30] "mean_time_body_gyro_jerk-standarddev-x_axis"    
-[31] "mean_time_body_gyro_jerk-standarddev-y_axis"    
-[32] "mean_time_body_gyro_jerk-standarddev-z_axis"    
-[33] "mean_time_body_accel_magnitude-mean"            
-[34] "mean_time_body_accel_magnitude-standarddev"     
-[35] "mean_time_gravity_accel_magnitude-mean"         
-[36] "mean_time_gravity_accel_magnitude-standarddev"  
-[37] "mean_time_body_accel_jerk_magnitude-mean"       
-[38] "mean_time_body_accel_jerk_magnitude-standarddev"
-[39] "mean_time_body_gyro_magnitude-mean"             
-[40] "mean_time_body_gyro_magnitude-standarddev"      
-[41] "mean_time_body_gyro_jerk_magnitude-mean"        
-[42] "mean_time_body_gyro_jerk_magnitude-standarddev" 
-[43] "mean_freq_body_accel-mean-x_axis"               
-[44] "mean_freq_body_accel-mean-y_axis"               
-[45] "mean_freq_body_accel-mean-z_axis"               
-[46] "mean_freq_body_accel-standarddev-x_axis"        
-[47] "mean_freq_body_accel-standarddev-y_axis"        
-[48] "mean_freq_body_accel-standarddev-z_axis"        
-[49] "mean_freq_body_accel-mean_freq-x_axis"          
-[50] "mean_freq_body_accel-mean_freq-y_axis"          
-[51] "mean_freq_body_accel-mean_freq-z_axis"          
-[52] "mean_freq_body_accel_jerk-mean-x_axis"          
-[53] "mean_freq_body_accel_jerk-mean-y_axis"          
-[54] "mean_freq_body_accel_jerk-mean-z_axis"          
-[55] "mean_freq_body_accel_jerk-standarddev-x_axis"   
-[56] "mean_freq_body_accel_jerk-standarddev-y_axis"   
-[57] "mean_freq_body_accel_jerk-standarddev-z_axis"   
-[58] "mean_freq_body_accel_jerk-mean_freq-x_axis"     
-[59] "mean_freq_body_accel_jerk-mean_freq-y_axis"     
-[60] "mean_freq_body_accel_jerk-mean_freq-z_axis"     
-[61] "mean_freq_body_gyro-mean-x_axis"                
-[62] "mean_freq_body_gyro-mean-y_axis"                
-[63] "mean_freq_body_gyro-mean-z_axis"                
-[64] "mean_freq_body_gyro-standarddev-x_axis"         
-[65] "mean_freq_body_gyro-standarddev-y_axis"         
-[66] "mean_freq_body_gyro-standarddev-z_axis"         
-[67] "mean_freq_body_gyro-mean_freq-x_axis"           
-[68] "mean_freq_body_gyro-mean_freq-y_axis"           
-[69] "mean_freq_body_gyro-mean_freq-z_axis"           
-[70] "mean_freq_body_accel_magnitude-mean"            
-[71] "mean_freq_body_accel_magnitude-standarddev"     
-[72] "mean_freq_body_accel_magnitude-mean_freq"       
-[73] "mean_freq_body_accel_jerk_magnitude-mean"       
-[74] "mean_freq_body_accel_jerk_magnitude-standarddev"
-[75] "mean_freq_body_accel_jerk_magnitude-mean_freq"  
-[76] "mean_freq_body_gyro_magnitude-mean"             
-[77] "mean_freq_body_gyro_magnitude-standarddev"      
-[78] "mean_freq_body_gyro_magnitude-mean_freq"        
-[79] "mean_freq_body_gyro_jerk_magnitude-mean"        
-[80] "mean_freq_body_gyro_jerk_magnitude-standarddev" 
-[81] "mean_freq_body_gyro_jerk_magnitude-mean_freq"
+                
+        
