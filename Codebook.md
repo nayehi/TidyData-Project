@@ -8,7 +8,7 @@ mean values, and writes a tidy data output file.
 ## Input Data
 This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0), which consists of 
 [561 variables](https://github.com/nayehi/TidyData-Project/blob/master/Features.md). The data resulted from an experiment in which
-30 subjects performed six activities while wearing smartphones that output accelerometer and gyroscope readings.
+30 subjects performed six activities while wearing smartphones that output accelerometer and gyroscope readings. All of the resulting values were normalized and bounded within the range of -1 to 1.
 
 ## Processing
 The script for this project, [run_analysis.R](https://github.com/nayehi/TidyData-Project/blob/master/run_analysis.R), loads the input 
@@ -25,13 +25,12 @@ For convenience, the column numbers for the variables have been provided below.
 | 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
 | 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
 
-The remaining 79 variables represent calculations of the mean values of the original data for each activity and subject_id. 
-The elements of these labels are separated by underscores.
+The remaining 79 variables represent calculations of the mean values of the original data for each activity and subject_id. Because the input data was bounded within the range of -1 to 1, the calculations for their means also fall within this range.
 
 The remaining variables, identified by labels that begin with "mean_", contain calculated means that apply to the 
 activity-subject_id pairs. These means were calculated from the mean and standard deviation values in the original Test and Training
 data.
-
+The elements of these variable names are separated by underscores.
 The first four elements are:
 "mean" - all variable names start with "mean" to indicate they are calcuated mean values
 "time" / "freq" - indicates whether the initial value was based on the time domain or the frequency domain
