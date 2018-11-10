@@ -48,7 +48,7 @@ The full headers for these variables appear below.
 
  | Column #        | Variable Name                              | Description  |
 | -------------: |:----------------------------------------------:| :-----|
-|<img width=30/><img width=500/>|<img width=200/>|
+|<img width=30/>|<img width=500/>|<img width=200/>|
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
 | 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
 | 5      | mean_time_body_accel-mean-z_axis     |   mean calculated on the mean time body measure from the accelerometer for the z axis|
