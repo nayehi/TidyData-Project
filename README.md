@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project - Week 3
-Version 1.0
+Version 1.0  
 GitHub User Name: nayehi
 
 # Data Source
