@@ -27,10 +27,7 @@ velocity at a constant rate of 50Hz. The experiments were video-recorded to labe
 
 The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. 
 
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters, then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'Feature Selection' at the bottom of this document for more information.
-
-Features were normalized and bounded within [-1,1].
-Each feature vector is a row in the data file.
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters, then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. [View Feature Details](https://github.com/nayehi/TidyData-Project/blob/master/Features). Features were normalized and bounded within [-1,1]. Each feature vector is a row in the data file.
 
 ##Each record consists of:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
