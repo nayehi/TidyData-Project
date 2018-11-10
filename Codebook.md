@@ -1,5 +1,5 @@
 # TidyData-Project Codebook
-GitHub User Name: nayehi
+GitHub User Name: nayehi  
 October 2018
 
 This codebook describes the variables in the TidyData Project. It reads the data files into R, restructures the data, calculates 
