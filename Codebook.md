@@ -30,18 +30,20 @@ The remaining 79 variables represent calculations of the mean values of the orig
 The remaining variables, identified by labels that begin with "mean_", contain calculated means that apply to the 
 activity-subject_id pairs. These means were calculated from the mean and standard deviation values in the original Test and Training
 data.
+
 The elements of these variable names are separated by underscores.
+
 The first four elements are:  
-*"mean" - all variable names start with "mean" to indicate they are calcuated mean values  
-*"time" / "freq" - indicates whether the initial value was based on the time domain or the frequency domain  
-*"body" / "gravity" - indicates whether the initial value was based on the body or gravity measure  
-*"accel" / "gyro" - indicates whether the initial value measure originated with the accelerometer or the gyroscope
+     -"mean" - all variable names start with "mean" to indicate they are calcuated mean values  
+     -"time" / "freq" - indicates whether the initial value was based on the time domain or the frequency domain  
+     -"body" / "gravity" - indicates whether the initial value was based on the body or gravity measure  
+     -"accel" / "gyro" - indicates whether the initial value measure originated with the accelerometer or the gyroscope
 
 The remaining elements provide additional layers of specificity. These are:  
-*"mean" - the input data was a calculated mean  
-*"standarddev" - the input data was a standard deviation calculation  
-*"jerk" - a measure of jerk within the activity  
-*"magnitude" - a measure of magnitude
+     -"mean" - the input data was a calculated mean  
+     -"standarddev" - the input data was a standard deviation calculation  
+     -"jerk" - a measure of jerk within the activity  
+     -"magnitude" - a measure of magnitude
 
 The full headers for these variables appear below.
 
