@@ -20,7 +20,7 @@ consists of 180 observations across 81 variables.
 
 For convenience, the column numbers for the variables have been provided below. 
                   
- | Column #        | Variable Name           | Description  |
+ | Column #        | Variable Name      | Description  |
 | -------------: |:-------------:| :-----|
 | 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
 | 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
@@ -46,7 +46,7 @@ The remaining elements provide additional layers of specificity. These are:
 
 The full headers for these variables appear below.
 
- | Column #        | Variable Name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                 | Description  |
+ | Column #        | Variable Name                              | Description  |
 | -------------: |:----------------------------------------------:| :-----|
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
 | 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
