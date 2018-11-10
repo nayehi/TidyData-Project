@@ -20,8 +20,8 @@ consists of 180 observations across 81 variables.
 
 For convenience, the column numbers for the variables have been provided below. 
                   
- | Column #        | Variable Name      | Description  |
-| -------------: |:-------------:| :-----|
+ | Column #        | Variable Name                              | Description  |
+| -------------: |:--------------------------------------:| :-----|
 | 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
 | 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
 
