@@ -40,8 +40,8 @@ each subject.
 3) **Launch the script.** It will read files into R based on their locations relative to the working directory.
 4) Locate the resulting **output file named "TidyData.txt"** in the working directory.
 
-"TidyData.txt" includes one header line. Contained in this file are 180 observations across 81 variables.  
-[View Descriptions of Variables](https://github.com/nayehi/TidyData-Project/blob/master/Variables)
+"TidyData.txt" includes one header line. Contained in this file are 180 observations across 81 variables.
+[View the Codebook for variable descriptions.](https://github.com/nayehi/TidyData-Project/blob/master/Codebook.md)
 
 ## Package Content
 This package includes the following files:
