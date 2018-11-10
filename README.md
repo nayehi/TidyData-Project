@@ -16,7 +16,7 @@ while wearing a smartphone (Samsung Galaxy S II) at the waist.
 Using the smartphone's embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular
 velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
 
-The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. [View more details](https://github.com/nayehi/TidyData-Project/blob/master/ExperimentDetails). 
+The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. [View more details](https://github.com/nayehi/TidyData-Project/blob/master/ExperimentDetails.md). 
 
 The Test data consists of 2947 observations across 561 variables.
 The Training data consists of 7352 observations across the same 561 variables.
