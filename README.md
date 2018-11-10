@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Course Project - Week 3
+# Getting and Cleaning Data - Course Project - Week 4
 Version 1.0  
 GitHub User Name: nayehi
 
