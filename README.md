@@ -3,7 +3,7 @@ Version 1.0
 GitHub User Name: nayehi
 
 # Data Source
-This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0).
+This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0). It reads the data files into R, restructures the data, calculates mean values, and writes a tidy data output file.
 
 # Overview of Original Data  
 According to documentation provided with the dataset, it is based on experiments carried out with a 
