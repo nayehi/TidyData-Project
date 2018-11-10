@@ -19,7 +19,7 @@ The researches then partitioned the obtained dataset into two sets, in which 70%
 
 The Test data consists of 2947 observations across 561 variables.
 The Training data consists of 7352 observations across the same 561 variables.
-[Read about the variables](https://github.com/nayehi/TidyData-Project/blob/master/Features).
+[Read about the variables](https://github.com/nayehi/TidyData-Project/blob/master/Features.md).
 
 
 # This Project
