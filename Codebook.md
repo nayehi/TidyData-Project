@@ -21,13 +21,9 @@ consists of 180 observations across 81 variables.
 For convenience, the column numbers for the variables have been provided below. 
                   
  | Column#        | Variable Name           | Description  |
-| ------------- |:-------------:| -----:|
+| -------------: |:-------------:| :-----|
 | 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
 | 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
-
- [1] "activity": the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, 
- Walking_upstairs, Walking_downstairs)                                      
- [2] "subject_id": the unique identifier for the subject performing the activity (Values: 1-30)                                         
 
 The remaining 79 variables represent calculations of the mean values of the original data for each activity and subject_id. 
 The elements of these labels are separated by underscores.
@@ -48,7 +44,34 @@ The remaining elements provide additional layers of specificity. These are:
 "jerk" - a measure of jerk within the activity
 "magnitude" - a measure of magnitude
 
-The full headers for these variables are:
+The full headers for these variables appear below.
+
+ | Column#        | Variable Name           | Description  |
+| -------------: |:-------------:| :-----|
+| 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 5      | mean_time_body_accel-mean-z_axis     |   mean calculated on the mean time body measure from the accelerometer for the z axis|
+| 6      | mean_time_body_accel-standarddev-x_axis     |   mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the x axis|
+| 7      | mean_time_body_accel-standarddev-y_axis     |   mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the y axis|
+| 8      | mean_time_body_accel-standarddev-z_axis     |   mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the z axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+| 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+
+
  [3] "mean_time_body_accel-mean-x_axis": mean calculated on the mean time body measure from the accelerometer for the x axis               
  [4] "mean_time_body_accel-mean-y_axis":mean calculated on the mean time body measure from the accelerometer for the y axis                  
  [5] "mean_time_body_accel-mean-z_axis": mean calculated on the mean time body measure from the accelerometer for the z axis                  
