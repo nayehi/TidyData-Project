@@ -20,27 +20,30 @@ velocity at a constant rate of 50Hz. The experiments were video-recorded to labe
 The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. [View more details](https://github.com/nayehi/TidyData-Project/blob/master/ExperimentDetails). 
 
 The Test data consists of 2947 observations across 561 variables.
-The Training data consists of 7352 observations across the same 561 variables. 
+The Training data consists of 7352 observations across the same 561 variables.
+[Read about the variables](https://github.com/nayehi/TidyData-Project/blob/master/Features).
+
 
 #This Project
 
 The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
 
 This project resulted in a single script, run_analysis.R, which does the following:
-1) Downloads and unzips the data.
-2) Loads the data into R.
-3) Merges the training and the test sets to create one data set.
-4) Extracts only the measurements on the mean and standard deviation for each measurement.
-5) Applies descriptive activity names to name the activities in the data set.
-6) Labels the data set with descriptive variable names.
-7) From the data set in step 6, creates a second, independent tidy data set with the average of each variable for each activity and 
+1) Merges the training and the test sets to create one data set.
+2) Extracts only the measurements on the mean and standard deviation for each measurement.
+3) Applies descriptive activity names to name the activities in the data set.
+4) Labels the data set with descriptive variable names.
+5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and 
 each subject.
 
-This script results in 180 observations across 81 variables.
+#Process
+1) Prior to running this script, **download** the [data file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), placing it in the the working directory. 
+2) **Unzip** the file into its current location (the working directory).
+3) **Launch the script.** It will read files into R based on their locations relative to the working directory.
+4) Locate the resulting **output file named "TidyData.txt"** in the working directory.
 
+"TidyData.txt" includes one header line. Contained in this file are 180 observations across 81 variables.
 [View Descriptions of Variables](https://github.com/nayehi/TidyData-Project/blob/master/Variables)
-
-The results of the script are output to a file named "TidyData.txt", which includes one header line.
 
 #Package Content
 This package includes the following files:
