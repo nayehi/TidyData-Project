@@ -1,39 +1,63 @@
-#Variable Names in TidyData Output File
+# TidyData-Project Codebook
+GitHub User Name: nayehi
+October 2018
 
-The first variable contains the activity being performed by the subject. 
-The second variable contains the subject_id.
+This codebook describes the variables in the TidyData Project. It reads the data files into R, restructures the data, calculates 
+mean values, and writes a tidy data output file. 
+
+## Input Data
+This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0), which consists of 
+[561 variables](https://github.com/nayehi/TidyData-Project/blob/master/Features.md). The data resulted from an experiment in which
+30 subjects performed six activities while wearing smartphones that output accelerometer and gyroscope readings.
+
+## Processing
+The script for this project, [run_analysis.R](https://github.com/nayehi/TidyData-Project/blob/master/run_analysis.R), loads the input 
+data into R. From that data, it extracts only the columns consisting of calculated means and standard deviations. It restructures the
+data, calculates means for the extracted columns by activity and by subject_id, and writes the output to a tidy data file. This output
+consists of 180 observations across 81 variables.
+
+## Variables
+
+For convenience, the column numbers for the variables have been provided below. 
+                  
+ | Column#        | Variable Name           | Description  |
+| ------------- |:-------------:| -----:|
+| 1      | activity      |   the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)      |
+| 2 | subject_id    |    the unique identifier for the subject performing the activity (Values: 1-30)  |
+
+ [1] "activity": the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, 
+ Walking_upstairs, Walking_downstairs)                                      
+ [2] "subject_id": the unique identifier for the subject performing the activity (Values: 1-30)                                         
+
+The remaining 79 variables represent calculations of the mean values of the original data for each activity and subject_id. 
+The elements of these labels are separated by underscores.
+
 The remaining variables, identified by labels that begin with "mean_", contain calculated means that apply to the 
 activity-subject_id pairs. These means were calculated from the mean and standard deviation values in the original Test and Training
 data.
 
-Abbreviations that appear in labels:
-accel: accelerometer
-freq: frequency
-gyro: gyroscope
-standarddev: standarddeviation
-
-                        
- [1] "activity": the activity being performed by the subject at the time of measure (Values: Laying, Sitting, Standing, Walking, Walking_upstairs, Walking_downstairs)                                      
- [2] "subject_id": the unique identifier for the subject performing the activity (Values: 1-30)                                         
-
-The remaining variables represent calculations of the mean values of the original data. The elements of these labels are separated by underscores.
 The first four elements are:
 "mean" - all variable names start with "mean" to indicate they are calcuated mean values
 "time" / "freq" - indicates whether the initial value was based on the time domain or the frequency domain
 "body" / "gravity" - indicates whether the initial value was based on the body or gravity measure
 "accel" / "gyro" - indicates whether the initial value measure originated with the accelerometer or the gyroscope
-The remaining elements provide specifics of different types.
-"mean" - a mean calculation
-"standarddev" - a standard deviation calculation
+
+The remaining elements provide additional layers of specificity. These are:
+"mean" - the input data was a calculated mean
+"standarddev" - the input data was a standard deviation calculation
 "jerk" - a measure of jerk within the activity
 "magnitude" - a measure of magnitude
-The full headers for the variables are:
- [3] "mean_time_body_accel-mean-x_axis"               
- [4] "mean_time_body_accel-mean-y_axis"               
- [5] "mean_time_body_accel-mean-z_axis"               
- [6] "mean_time_body_accel-standarddev-x_axis"        
- [7] "mean_time_body_accel-standarddev-y_axis"        
- [8] "mean_time_body_accel-standarddev-z_axis"        
+
+The full headers for these variables are:
+ [3] "mean_time_body_accel-mean-x_axis": mean calculated on the mean time body measure from the accelerometer for the x axis               
+ [4] "mean_time_body_accel-mean-y_axis":mean calculated on the mean time body measure from the accelerometer for the y axis                  
+ [5] "mean_time_body_accel-mean-z_axis": mean calculated on the mean time body measure from the accelerometer for the z axis                  
+ [6] "mean_time_body_accel-standarddev-x_axis": mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the x axis        
+ [7] "mean_time_body_accel-standarddev-y_axis": mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the y axis               
+ [8] "mean_time_body_accel-standarddev-z_axis": mean calculated on the standard deviation of the time body measure from the 
+      accelerometer for the z axis                
  [9] "mean_time_gravity_accel-mean-x_axis"            
 [10] "mean_time_gravity_accel-mean-y_axis"            
 [11] "mean_time_gravity_accel-mean-z_axis"            
