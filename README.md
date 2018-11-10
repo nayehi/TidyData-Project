@@ -2,12 +2,12 @@
 Version 1.0  
 GitHub User Name: nayehi
 
-# Data Source
-This project is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0). It reads the data files into R, restructures the data, calculates mean values, and writes a tidy data output file.
+# Overview
+This project reads data files into R, restructures the data, calculates mean values, and writes a tidy data output file. 
+It is based on the Human Activity Recognition Using Smartphones Dataset (Version 1.0). 
 
-# Overview of Original Data  
-According to documentation provided with the dataset, it is based on experiments carried out with a 
-group of 30 volunteers in the age bracket of 19-48 years.
+# Data Source
+According to documentation provided with the Human Activity Recognition Using Smartphones Dataset, it is based on experiments carried out with a group of 30 volunteers in the age bracket of 19-48 years.
 
 In these experiments, each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, laying)
 while wearing a smartphone (Samsung Galaxy S II) at the waist. 
@@ -23,7 +23,6 @@ The Training data consists of 7352 observations across the same 561 variables.
 
 
 # This Project
-
 The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
 
 This project resulted in a single script, [run_analysis.R](https://github.com/nayehi/TidyData-Project/blob/master/run_analysis.R), which does the following:
