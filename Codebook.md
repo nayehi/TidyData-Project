@@ -46,16 +46,25 @@ The remaining elements provide additional layers of specificity. These are:
 
 The full headers for these variables appear below.
 
- | Column #        | Variable Name                              | Description  |
-| -------------: |:----------------------------------------------:| :-----|
-|<img width=30/>|<img width=500/>|<img width=200/>|
+-------------------------------------------------------------------------------
+| Column #        | Variable Name                              | Description  |
+| -------------: |:--------------------------------------:| :-----|
+-------------------------------------------------------------------------------
+
 | 3      | mean_time_body_accel-mean-x_axis      |  mean calculated on the mean time body measure from the accelerometer for the x axis|
+
 | 4      | mean_time_body_accel-mean-y_axis     |   mean calculated on the mean time body measure from the accelerometer for the y axis|
+
 | 5      | mean_time_body_accel-mean-z_axis     |   mean calculated on the mean time body measure from the accelerometer for the z axis|
+
 | 6      | mean_time_body_accel-standarddev-x_axis     |   mean calculated on the standard deviation of the time body measure from the accelerometer for the x axis|
+
 | 7      | mean_time_body_accel-standarddev-y_axis     |   mean calculated on the standard deviation of the time body measure from the accelerometer for the y axis|
+
 | 8      | mean_time_body_accel-standarddev-z_axis     |   mean calculated on the standard deviation of the time body measure from the accelerometer for the x axis|
+
 | 9      | mean_time_gravity_accel-mean-x_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the x axis|
+
 | 10      | mean_time_gravity_accel-mean-y_axis     |   mean calculated on the mean time gravity measure from the accelerometer for the y axis|
 | 11      | mean_time_gravity_accel-mean-z_axis    |   mean calculated on the mean time gravity measure from the accelerometer for the z axis  |
 | 12      | mean_time_gravity_accel-standarddev-x_axis     |   mean calculated on the standard deviation of the time gravity measure from the accelerometer for axis x|
