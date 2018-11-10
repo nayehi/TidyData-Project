@@ -32,22 +32,12 @@ velocity at a constant rate of 50Hz. The experiments were video-recorded to labe
 
 The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. 
 
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters, then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. [View Feature Details](https://github.com/nayehi/TidyData-Project/blob/master/Features). Features were normalized and bounded within [-1,1]. Each feature vector is a row in the data file.
-
-##Each record consists of:
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Activity label.
-- An identifier of the subject who carried out the experiment.
-
 The Test data consists of 2947 observations across 561 variables.
 The Training data consists of 7352 observations across the same 561 variables. 
 
-#Current Project
+#This Project
 
-The data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of
-experiment activities to unique identifiers, which have been stored in separate files.
+The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
 
 The project was to write a single script, run_analysis.R, which does the following:
 1) Merge the training and the test sets to create one data set.
