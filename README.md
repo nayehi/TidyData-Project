@@ -11,7 +11,7 @@ This project is based on the [Human Activity Recognition Using Smartphones Datas
 According to documentation provided with the dataset, it is based on experiments carried out with a 
 group of 30 volunteers in the age bracket of 19-48 years.
 
-In these experiments, each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+In these experiments, each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, laying)
 while wearing a smartphone (Samsung Galaxy S II) at the waist. 
   
 Using the smartphone's embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular
