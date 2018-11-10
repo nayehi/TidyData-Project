@@ -6,6 +6,51 @@ GitHub User Name: nayehi
 This project is based on the [Human Activity Recognition Using Smartphones Dataset (Version 1.0)]
 (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
+
+#Overview of Original Data  
+According to documentation provided with the dataset, it is based on experiments carried out with a 
+group of 30 volunteers in the age bracket of 19-48 years.
+
+In these experiments, each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+while wearing a smartphone (Samsung Galaxy S II) at the waist. 
+  
+Using the smartphone's embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular
+velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
+
+The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. [View more details](https://github.com/nayehi/TidyData-Project/blob/master/ExperimentDetails). 
+
+The Test data consists of 2947 observations across 561 variables.
+The Training data consists of 7352 observations across the same 561 variables. 
+
+#This Project
+
+The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
+
+This project resulted in a single script, run_analysis.R, which does the following:
+1) Downloads and unzips the data.
+2) Loads the data into R.
+3) Merges the training and the test sets to create one data set.
+4) Extracts only the measurements on the mean and standard deviation for each measurement.
+5) Applies descriptive activity names to name the activities in the data set.
+6) Labels the data set with descriptive variable names.
+7) From the data set in step 6, creates a second, independent tidy data set with the average of each variable for each activity and 
+each subject.
+
+This script results in 180 observations across 81 variables.
+
+[View Descriptions of Variables](https://github.com/nayehi/TidyData-Project/blob/master/Variables)
+
+The results of the script are output to a file named "TidyData.txt", which includes one header line.
+
+#Package Content
+This package includes the following files:
+- 'README.md'
+- 'run_analysis.R'
+
+This package is distributed AS-IS and no responsibility implied or explicit can be addressed to the author for its use or misuse.
+
+nayehi. November 2018. 
+
 #Dataset Credits
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
 
@@ -18,49 +63,6 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws  
 
 www.smartlab.ws  
-
-
-#Overview of Original Data
-According to documentation provided with the dataset, it is based on experiments carried out with a 
-group of 30 volunteers in the age bracket of 19-48 years.
-
-In these experiments, each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-while wearing a smartphone (Samsung Galaxy S II) at the waist. 
-  
-Using the smartphone's embedded accelerometer and gyroscope, the researchers captured 3-axial linear acceleration and 3-axial angular
-velocity at a constant rate of 50Hz. The experiments were video-recorded to label the data manually. 
-
-The researches then partitioned the obtained dataset into two sets, in which 70% of the volunteers were selected for generating the Training data and 30% the Test data. 
-
-The Test data consists of 2947 observations across 561 variables.
-The Training data consists of 7352 observations across the same 561 variables. 
-
-#This Project
-
-The input data for the current project consists of the Test and Training files, along with the associated variable names and a mapping of experiment activities to unique identifiers, which have been stored in separate files.
-
-The project was to write a single script, run_analysis.R, which does the following:
-1) Merge the training and the test sets to create one data set.
-2) Extract only the measurements on the mean and standard deviation for each measurement.
-3) Use descriptive activity names to name the activities in the data set.
-4) Appropriately label the data set with descriptive variable names.
-5) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and 
-each subject.
-
-This script resulted in 180 observations across 81 variables.
-
-[View Descriptions of Variables](https://github.com/nayehi/TidyData-Project/blob/master/Variables)
-
-The results of the script are output to a file named "TidyData.txt", which includes one header line.
-
-#Package Content
-This package includes the following files:
-- 'README.MD'
-- 'run_analysis.R'
-
-This package is distributed AS-IS and no responsibility implied or explicit can be addressed to the author for its use or misuse.
-
-nayehi. November 2018. 
 
 #License:
 
