@@ -35,10 +35,11 @@ This project resulted in a single script, [run_analysis.R](https://github.com/na
 each subject.
 
 ## Process
-1) Prior to running this script, **download** the [data file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), placing it in the the working directory. 
-2) **Unzip** the file into its current location (the working directory).
-3) **Launch the script.** It will read files into R based on their locations relative to the working directory.
-4) Locate the resulting **output file named "TidyData.txt"** in the working directory.
+1) Download the script to your working directory.  
+2) Prior to running this script, **download** the [data file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), placing it in the the working directory. 
+3) **Unzip** the file into its current location (the working directory).
+4) **Launch the script.** It will read files into R based on their locations relative to the working directory.
+5) Locate the resulting **output file named "TidyData.txt"** in the working directory.
 
 "TidyData.txt" includes one header line. Contained in this file are 180 observations across 81 variables.
 [View the Codebook for variable descriptions.](https://github.com/nayehi/TidyData-Project/blob/master/Codebook.md)
