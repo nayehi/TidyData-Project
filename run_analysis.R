@@ -112,7 +112,8 @@ meanstd_w_act <- select(meanstd_w_act, -activity_id)
 meanstd_w_act$activity <- tolower(meanstd_w_act$activity)
 
 ##Capitalize the first letter in activity to enhance readability
-meanstd_w_act$activity <- paste0(toupper(substr(meanstd_w_act$activity, 1, 1)), substr(meanstd_w_act$activity, 2, nchar(meanstd_w_act$activity)))
+meanstd_w_act$activity <- paste0(toupper(substr(meanstd_w_act$activity, 1, 1)), 
+                                 substr(meanstd_w_act$activity, 2, nchar(meanstd_w_act$activity)))
 
 ##Aggregate the data, calculate the means
 aggdata <- aggregate(. ~ activity + subject_id, data = meanstd_w_act, mean)  
